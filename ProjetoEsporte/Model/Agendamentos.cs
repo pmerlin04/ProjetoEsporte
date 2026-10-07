@@ -37,8 +37,9 @@ namespace ProjetoEsporte.Model
         [Column("status_agendamento", TypeName = "varchar(30)")]
         public string? StatusAgendamento { get; set; }
 
+        /*
         [Column("motivo_cancelamento", TypeName = "varchar(100)")]
-        public string? MotivoCancelamento { get; set; }
+        public string? MotivoCancelamento { get; set; }*/
 
     }
 }
